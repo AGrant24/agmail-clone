@@ -8,8 +8,9 @@ import { useHistory } from "react-router-dom";
 
 function EmailRow({ id, title, subject, description, time }) {
   const history = useHistory();
+  const link = () => history.push("/mail");
   return (
-    <div onClick={() => history.push("/mail")} className="emailRow">
+    <div className="emailRow">
       <div className="emailRow__options">
         <Checkbox />
         <IconButton>
@@ -19,16 +20,23 @@ function EmailRow({ id, title, subject, description, time }) {
           <LabelImportantOutlinedIcon />
         </IconButton>
       </div>
-      <h3 className="emailRow__title">{title}</h3>
 
-      <div className="emailRow__message">
+      <h3 className="emailRow__title" onClick={link}>
+        {title}
+      </h3>
+
+      <div className="emailRow__message" onClick={link}>
         <h4>
           {subject}{" "}
-          <span className="emailRow__description">- {description}</span>
+          <span className="emailRow__description" onClick={link}>
+            - {description}
+          </span>
         </h4>
       </div>
 
-      <div className="emailRow__time">{time}</div>
+      <div className="emailRow__time" onClick={link}>
+        {time}
+      </div>
     </div>
   );
 }
