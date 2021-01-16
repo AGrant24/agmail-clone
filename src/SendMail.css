@@ -20,7 +20,7 @@
   align-items: center;
   color: gray;
 }
-.sendMail > h3 {
+.sendMail__header > h3 {
   color: whitesmoke;
   font-size: 13px;
 }
@@ -48,4 +48,10 @@
 }
 .sendMail__message {
   flex: 1;
+}
+.sendMail__error {
+  background-color: white;
+  color: red;
+  text-align: right;
+  padding: 2px;
 }

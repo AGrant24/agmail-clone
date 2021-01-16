@@ -1,7 +1,14 @@
 .emailList {
   flex: 1;
   overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge hides scroll bars */
+
+  scrollbar-width: none; /* Firefox hides scroll bars */
 }
+::-webkit-scrollbar {
+  display: none; /*Google Chrome hides scroll bars */
+}
+
 .emailList__settings {
   position: sticky;
   top: 0;
