@@ -77,7 +77,26 @@ function Mail() {
           <p className="mail__time">00:00</p>
         </div>
         <div className="mail__message">
-          <p>Message Content</p>
+          <p>
+            Free React Most Wanted: Created with Create React App Custom Create
+            React App script to start a new project with just a single CLI
+            command Build for Firebase including Authentication using the
+            official Firebase Web Auth UI Routing with React Router including
+            error handling (404) and lazy loading All PWA features included (SW,
+            Notifications, deferred installation prompt and more) Optimized and
+            scalable performance (all ~100 points on Lighthouse) RMUIF:
+            Bootstrapped with Create React App, the same tooling works from the
+            get-go Built on top of Firebase with all their products for the web
+            included Robust routing with React Router including protected routes
+            and error handling Extensive mobile support with full-screen dialogs
+            and react-swipeable-views for tabs Cross-platform application
+            monitoring with a focus on error reporting with Sentry Material
+            online tool Choose your framework and library (React & Material-UI!)
+            Choose your database (SQL, MongoDB or Firestore) Model your database
+            and application with the intuitive GUI Generate your application,
+            including a complete scaffolded backend Preview your application
+            online, and download the generated code
+          </p>
         </div>
       </div>
     </div>

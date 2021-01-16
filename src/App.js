@@ -10,7 +10,7 @@ import SendMail from "./SendMail";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Header />
         <div className="app__body">
           <Sidebar />
@@ -23,8 +23,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-
-        {/* <SendMail /> */}
+        <SendMail />
       </div>
     </Router>
   );

@@ -15,7 +15,6 @@ function Header() {
         <IconButton>
           <MenuIcon />
         </IconButton>
-
         <img src={Logo} alt="AGmail Logo" />
       </div>
       <div className="header__middle">
