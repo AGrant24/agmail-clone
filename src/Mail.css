@@ -1,6 +1,7 @@
 .mail {
   flex: 1;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-image: linear-gradient(whitesmoke, rgba(255, 0, 0, 0));
   height: 100%;
 }
 
